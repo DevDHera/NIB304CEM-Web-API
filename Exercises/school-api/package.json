@@ -1,0 +1,21 @@
+{
+    "name": "school-api",
+    "version": "1.0.0",
+    "description": "School Management System backend API",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app",
+        "dev": "nodemon app"
+    },
+    "author": "Devin Herath",
+    "license": "MIT",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "express": "^4.17.1",
+        "express-validator": "^6.6.0",
+        "strip-ansi": "^6.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
